@@ -1,0 +1,6 @@
+[data-whatinput="mouse"],
+[data-whatinput="touch"] {
+  :focus {
+    outline-width: 0;
+  }
+}
