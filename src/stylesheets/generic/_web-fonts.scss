@@ -1,0 +1,14 @@
+@font-face {
+  font-display: swap;
+  font-family: "TS3 Text Sans";
+  src: url(../fonts/TS3TextSans.woff2) format("woff2"),
+       url(../fonts/TS3TextSans.woff) format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "TS3 Text Sans";
+  font-weight: bold;
+  src: url(../fonts/TS3TextSans-Bold.woff2) format("woff2"),
+       url(../fonts/TS3TextSans-Bold.woff) format("woff");
+}
