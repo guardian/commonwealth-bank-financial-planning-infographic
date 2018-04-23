@@ -1,0 +1,11 @@
+.c-section {
+  @include fluid-type(padding-bottom padding-top, 20em, 48em, 2em, 4em);
+}
+
+.c-section--supernova {
+  background-color: $supernova;
+}
+
+.c-section--wild-sand {
+  background-color: $wild-sand;
+}
