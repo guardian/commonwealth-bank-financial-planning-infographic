@@ -1,0 +1,29 @@
+.c-listicle {
+  background-color: $white;
+  border-radius: 0.5em;
+  box-shadow: 0 0.25em 0.5em rgba($black, 0.125);
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.c-listicle__item {
+  flex: 1 1 calc(100% / 3);
+  min-width: 16em;
+  outline: $supernova solid 1px;
+  padding: 1em 1.25em;
+  text-align: center;
+}
+
+.c-listicle__icon {
+  fill: $steel-blue;
+  font-size: 6em;
+}
+
+.c-listicle__title {
+  font-size: 1.125em;
+}
+
+.c-listicle__description {
+  font-size: 0.875em;
+}
