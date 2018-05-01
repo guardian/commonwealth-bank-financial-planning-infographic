@@ -1,0 +1,27 @@
+.c-title {
+  @include fluid-type(font-size, 20em, 48em, 1.25em, 1.75em);
+  line-height: 1.25;
+  text-align: center;
+}
+
+.c-title--left {
+  text-align: left;
+}
+
+.c-title--steel-blue {
+  color: $steel-blue;
+}
+
+.c-title--supernova {
+  color: $supernova;
+}
+
+.c-title--white {
+  color: $white;
+}
+
+.c-title__icon {
+  fill: $steel-blue;
+  font-size: 2em;
+  margin: -0.25em 0;
+}

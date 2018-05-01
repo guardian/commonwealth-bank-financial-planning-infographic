@@ -1,3 +1,4 @@
 .c-footer {
-  flex: none;
+  @include fluid-type(padding-bottom padding-top, 20em, 48em, 1em, 1.5em);
+  background-color: #d9d9d9;
 }

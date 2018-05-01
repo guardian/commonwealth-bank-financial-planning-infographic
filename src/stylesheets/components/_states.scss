@@ -1,0 +1,7 @@
+.c-states {
+  @include fluid-type(padding, 20em, 48em, 1em, 2em);
+  background-color: $white;
+  border-radius: 0.5em;
+  box-shadow: 0 0.25em 0.5em rgba($black, 0.125);
+  position: relative;
+}

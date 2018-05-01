@@ -1,0 +1,35 @@
+.c-data {}
+
+.c-data__item {
+  display: none;
+
+  &.is-visible {
+    display: block;
+  }
+}
+
+.c-data__title {
+  @extend .c-title;
+  color: $steel-blue;
+  text-align: left;
+}
+
+.c-data-list {
+  font-size: 1.25em;
+}
+
+.c-data-list__item {
+  display: inline-block;
+
+  &:not(:last-child) {
+    margin-right: 0.5em;
+  }
+
+  &:last-child {
+    border-top: $supernova solid 1px;
+    display: block;
+    font-weight: bold;
+    margin-top: 0.25em;
+    padding-top: 0.25em;
+  }
+}

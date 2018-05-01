@@ -1,11 +1,28 @@
 .c-section {
-  @include fluid-type(padding-bottom padding-top, 20em, 48em, 2em, 4em);
+  @include fluid-type(padding-bottom padding-top, 20em, 48em, 2em, 3em);
+  display: flow-root;
+}
+
+.c-section--deflate-bottom {
+  padding-bottom: 0;
+}
+
+.c-section--deflate-top {
+  padding-top: 0;
 }
 
 .c-section--supernova {
   background-color: $supernova;
 }
 
+.c-section--supernova-wild-sand {
+  background-image: linear-gradient($supernova 50%, $wild-sand 50%);
+}
+
 .c-section--wild-sand {
   background-color: $wild-sand;
+}
+
+.c-section--wild-sand-supernova {
+  background-image: linear-gradient($wild-sand 50%, $supernova 50%);
 }

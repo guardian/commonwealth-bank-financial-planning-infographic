@@ -1,0 +1,15 @@
+.c-button {
+  background-color: $steel-blue;
+  border-radius: 0.25em;
+  box-shadow: inset 0 0 0 0.125em $steel-blue;
+  color: $white;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.75em 1.5em;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $white;
+    color: $steel-blue;
+  }
+}

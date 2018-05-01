@@ -1,3 +1,9 @@
 .c-header {
-  flex: none;
+  @include fluid-type(padding-top, 20em, 48em, 2em, 3em);
+  background-color: #e9e8e7;
+  background-image: url(../images/header-background.jpg);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 50%;
 }

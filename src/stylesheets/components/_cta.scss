@@ -1,0 +1,19 @@
+.c-cta {
+  @include fluid-type(margin-bottom, 20em, 48em, 1.5em, 0em);
+  @include fluid-type(padding-left padding-right padding-top, 20em, 48em, 1em, 2em);
+  background-color: $white;
+  border-radius: 0.5em;
+  box-shadow: 0 0.25em 0.5em rgba($black, 0.125);
+  position: relative;
+  text-align: center;
+}
+
+.c-cta__entry-content {
+  font-size: 1.125em;
+  font-weight: bold;
+}
+
+.c-cta__button {
+  margin-top: -0.75em;
+  transform: translatey(1.5em);
+}

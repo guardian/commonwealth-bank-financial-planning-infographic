@@ -1,0 +1,63 @@
+.s-entry-content {
+  ol {
+    counter-reset: counter;
+
+    li {
+      counter-increment: counter;
+
+      &::before {
+        content: counter(counter) ".";
+        font-weight: bold;
+      }
+    }
+  }
+
+  ul {
+    li {
+      &::before {
+        content: "•";
+      }
+    }
+  }
+
+  li {
+    padding-left: 2ch;
+    position: relative;
+
+    &:not(:last-child) {
+      margin-bottom: 0.5em;
+    }
+
+    &::before {
+      left: 0;
+      position: absolute;
+    }
+  }
+
+  ol,
+  p,
+  ul {
+    margin-bottom: 1em;
+    margin-top: 1em;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.s-entry-content--center {
+  text-align: center;
+}
+
+.s-entry-content--large {
+  font-size: 1.125em;
+}
+
+.s-entry-content--small {
+  font-size: 0.875em;
+}
