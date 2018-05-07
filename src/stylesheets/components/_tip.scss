@@ -1,24 +1,24 @@
 .c-tip {
   align-items: center;
-  color: $supernova;
   display: flex;
-  justify-content: center;
-
-  &::before,
-  &::after {
-    border-top: currentcolor solid 1px;
-    content: "";
-    flex: auto;
-    min-width: 1em;
-  }
-}
-
-.c-tip__label {
-  border-radius: 0.5em;
-  border: currentcolor solid 1px;
   font-size: 0.75em;
   font-weight: bold;
   line-height: 1.25;
-  padding: 0.5em 0.75em;
   text-align: center;
+
+  &::before,
+  &::after {
+    border-top: $supernova solid 0.125em;
+    content: "";
+    flex: auto;
+    min-width: 1.5em;
+  }
+
+  &::before {
+    margin-right: 1.5em;
+  }
+
+  &::after {
+    margin-left: 1.5em;
+  }
 }
