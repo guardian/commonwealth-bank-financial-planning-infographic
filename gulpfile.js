@@ -69,7 +69,9 @@ gulp.task('stylesheets', () =>
         outputStyle: 'compressed',
         precision: 10
       }))
-      .pipe(autoprefixer())
+      .pipe(autoprefixer({
+        browsers: ['last 2 versions']
+      }))
     .pipe(sourcemaps.write(''))
     .pipe(gulp.dest('dest/stylesheets'))
     .pipe(browserSync.stream({
